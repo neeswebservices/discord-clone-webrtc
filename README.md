@@ -7,7 +7,7 @@ you can start developing this application by following the steps below:
 > clone this repo
 > run the command `npm install` in root level
 
-### > you need to configure your config
+### you need to configure your config
 
 `PORT=????`
 `NODE_ENV=development`
