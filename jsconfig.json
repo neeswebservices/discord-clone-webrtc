@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"module": "commonjs",
+		"target": "es5"
+	},
+	"exclude": ["node_modules"],
+	"paths": {
+		"@controllers/*": ["server/controllers/*"],
+		"@models/*": ["server/models/*"],
+		"@services/*": ["server/services/*"],
+		"@utils/*": ["server/utils/*"],
+		"@middlewares/*": ["server/middlewares/*"],
+		"@routes/*": ["server/routes/*"],
+		"@config/*": ["server/config/*"],
+		"@libs/*": ["server/libs/*"]
+	}
+}
